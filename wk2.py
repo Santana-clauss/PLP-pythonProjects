@@ -1,6 +1,19 @@
+my_list = []
 
-myList = input("Enter a list of integers separated by spaces: ")
-integer_list = [int(x) for x in myList.split()]
-total_sum = sum(integer_list)
+my_list.append(10)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
 
-print("Sum of the integers:", total_sum)
+my_list.insert(1, 15)
+
+my_list.extend([50, 60, 70])
+
+my_list.pop()
+
+my_list.sort()
+
+index_30 = my_list.index(30)
+print("Index of value 30 in my_list:", index_30)
+
+print("Updated my_list:", my_list)
