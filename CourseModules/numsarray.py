@@ -1,6 +1,6 @@
-
-a = np.arange(0,60,5)
-a = a.reshape(3,4)
+import numpy as np
+a = np.arange(1,64,4)
+a = a.reshape(4,4)
 print('Original array is:')
 print(a)
 print('\n')
