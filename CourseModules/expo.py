@@ -1,4 +1,4 @@
-def modular_exponentiation(base, exponent, modulus):
+def mod(base, exponent, modulus):
     x = 1
     power = base % modulus
     binary_exponent = bin(exponent)[2:]
@@ -15,5 +15,5 @@ exponent = int(input("Enter your exponent :"))
 modulus = int(input("Enter your modulus :"))
 
 
-result = modular_exponentiation(base, exponent, modulus)
+result = mod(base, exponent, modulus)
 print(f"The result of {base}^{exponent} mod {modulus} is: {result}")
