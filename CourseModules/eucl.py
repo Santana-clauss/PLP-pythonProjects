@@ -1,5 +1,5 @@
 def gcd(a,b):
-    #compute gcd of 2 integeers using euclidean algorithm
+    #compute gcd
     while(b!=0):
         a,b=b,a%b
     return a
@@ -8,5 +8,5 @@ b=int(input("Enter first number:"))
 
 result = gcd(a, b)
 
-# Print the result
+
 print(f"The greatest common divisor of {a} and {b} is: {result}")
